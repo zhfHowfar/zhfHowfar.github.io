@@ -1,0 +1,53 @@
+body,
+div,
+span,
+p,
+ul,
+li,
+a,
+img,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+del,
+i {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+input {
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+i {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+body {
+  font: 12px/100% "微软雅黑";
+}
+.clearfix::after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+}
