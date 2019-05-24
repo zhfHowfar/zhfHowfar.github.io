@@ -66,7 +66,7 @@ function startime(time1, time2) {
             clearInterval(timeid);
             alert("游戏结束");
         }
-    }, 3000)
+    }, 1000)
 
 
 }
